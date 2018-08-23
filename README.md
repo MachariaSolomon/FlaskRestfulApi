@@ -5,8 +5,8 @@ A simple project on using FlaskRestful to create Restful API endpoints.
 
 ## Getting Started
 
-* On your machine, open a new folder and name it appropriately.
+* On your machine, open a new folder.
 * Initialize a new git repository.
-* Run the following code to clone the project on your repository.'(https://github.com/MachariaSolomon/FlaskRestfulApi.git)'
+* Run the following code to clone the project on your repository.'https://github.com/MachariaSolomon/FlaskRestfulApi.git'
 
 ### Installation
