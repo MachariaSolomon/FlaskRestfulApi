@@ -5,21 +5,16 @@ A simple project on using FlaskRestful to create Restful API endpoints.
 
 ## Getting Started
 
-Ensure you have:
+**Ensure you have:**
 * python3
 * An empty folder in your machine
-###Installation
+
+### Installation
 
 1.**Clone the repo. into the empty folder**
-<!-- '''
-https://github.com/MachariaSolomon/FlaskRestfulApi.git
-'''
+`https://github.com/MachariaSolomon/FlaskRestfulApi.git` 
 2.**Create a virtual environment**
-'''
-python3 -m venv /home/frost/code/new/.env
-'''
+`python3 -m venv /path/to/new/virtual/environment`
 3.**To activate the virtual environment**
 Run
-'''
-source .env/bin/activate
-''' -->
+`source .env/bin/activate`
