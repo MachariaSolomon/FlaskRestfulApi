@@ -11,7 +11,7 @@ Ensure you have:
 ###Installation
 
 1.**Clone the repo. into the empty folder**
-'''
+<!-- '''
 https://github.com/MachariaSolomon/FlaskRestfulApi.git
 '''
 2.**Create a virtual environment**
@@ -22,4 +22,4 @@ python3 -m venv /home/frost/code/new/.env
 Run
 '''
 source .env/bin/activate
-'''
+''' -->
