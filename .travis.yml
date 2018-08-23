@@ -3,6 +3,6 @@ language: python
 
 # cache: pip
 
-# install: pip install requirements.txt
+install: pip install requirements.txt
 
 script: python tests.py
