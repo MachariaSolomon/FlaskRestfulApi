@@ -9,7 +9,6 @@ A simple project on using FlaskRestful to create Restful API endpoints.
 **Ensure you have:**
 
 * python3
-* created an empty folder in your machine
 
 ### Installation
 
@@ -21,17 +20,17 @@ A simple project on using FlaskRestful to create Restful API endpoints.
 
       >`python3 -m venv /path/to/new/virtual/environment`
 
-3. **To activate the virtual environment**
+3. **Activate the virtual environment**
 
-      >`source .env/bin/activate`
+      >`source yourvirtualenvironment/bin/activate`
 
-4. **To install required dependancies**
+4. **Install required dependancies**
 
       >`pip install -r requirements.txt`
 
       >`pip freeze > requirements.txt`
 
-5. **To run the app**
+5. **Run the app**
 
       Simply run in the command line:
 
@@ -43,13 +42,15 @@ Run the following routes to test that the endpoints are functioning as expected:
 
 **To fetch Todo items**
 
-Run:
-
 To fetch **all** Todo items.
+
+Use:
 
 >`http://localhost/todos`
 
 To fetch a **single** Todo item.
+
+Use:
 
 >`http://localhost/todos/<todo_id>`
 
@@ -89,13 +90,13 @@ or simply
 
 >`pytest`
 
-### A break down of the tests
+### A breakdown of the tests
 
 Test the **GET/todos** endpoint.
 
-using POST,create a todo item. Assert that this returns a **201** staus code meaning the item is successfully created. Use the get method to see that the created todo item is returned.Assert that the item returned is equal to the one created. The method should return a **200** status code.
+Using **POST**,create a todo item. Assert that this returns a **201** staus code meaning the item is successfully created. Use the get method to see that the created todo item is returned.Assert that the item returned is equal to the one created. Assert The method is returning a **200** status code.
 
-Also try getting a todo item that does not exist and assert that the returned result is a **404** status code and the Error message todo item {} does not exist.  -->
+Try getting a todo item that does not exist and assert that the returned result is a **404** status code and the Error message todo item {} does not exist.
 
 Test the **POST/todos** endpoint.
 
