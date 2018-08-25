@@ -89,15 +89,15 @@ or simply
 
 >`pytest`
 
-<!-- ### A break down of the tests
+### A break down of the tests
+
 Test the **GET/todos** endpoint.
 
 using POST,create a todo item. Assert that this returns a **201** staus code meaning the item is successfully created. Use the get method to see that the created todo item is returned.Assert that the item returned is equal to the one created. The method should return a **200** status code.
 
 Also try getting a todo item that does not exist and assert that the returned result is a **404** status code and the Error message todo item {} does not exist.  -->
 
+Test the **POST/todos** endpoint.
 
-<!-- Test the **POST/todos** endpoint.
-
-initialize 
-Use POST method to create a new todo item. -->
+initialize
+Use POST method to create a new todo item.
