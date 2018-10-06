@@ -4,6 +4,8 @@ A simple project on using FlaskRestful to create Restful API endpoints.
 
 [![Build Status](https://travis-ci.org/MachariaSolomon/FlaskRestfulApi.svg?branch=master)](https://travis-ci.org/MachariaSolomon/FlaskRestfulApi)
 
+[![Coverage Status](https://coveralls.io/repos/github/MachariaSolomon/FlaskRestfulApi/badge.svg?branch=master)](https://coveralls.io/github/MachariaSolomon/FlaskRestfulApi?branch=master)
+
 ## Getting Started
 
 **Ensure you have:**
